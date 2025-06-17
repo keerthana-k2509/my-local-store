@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Handmade Mug",
+    "description": "A beautiful ceramic mug.",
+    "price": 12.99,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "Cotton Scarf",
+    "description": "Warm and cozy scarf.",
+    "price": 25.00,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "name": "Notebook",
+    "description": "Eco-friendly recycled notebook.",
+    "price": 7.50,
+    "image": "https://via.placeholder.com/150"
+  }
+]

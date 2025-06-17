@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Keerthana’s Stylish Boutique</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Overlay to soften background for readability -->
+  <div class="overlay"></div>
+
+  <!-- Header -->
+  <h1>🌟 MY LOCAL STORE </h1>
+  <p class="tagline">Discover handmade treasures in your neighborhood</p>
+
+  <!-- Filters -->
+  <div id="filters">
+    <input id="f-name" placeholder="Search name..." />
+    <input id="f-min" type="number" placeholder="Min price" />
+    <input id="f-max" type="number" placeholder="Max price" />
+    <button onclick="loadProducts()">Apply Filters</button>
+  </div>
+
+  <!-- Products Container -->
+  <div id="product-list"></div>
+
+  <!-- Cart Link -->
+  <a href="cart.html" class="view-cart">View Cart</a>
+
+  <!-- Main Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
